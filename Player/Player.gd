@@ -17,7 +17,7 @@ onready var gravity = ProjectSettings.get("physics/2d/default_gravity")
 onready var gravity_direction = ProjectSettings.get("physics/2d/default_gravity_vector")
 
 onready var velocity = Vector2.ZERO
-onready var movement_speed = 20000
+onready var movement_speed = 90000
 
 onready var anim = $AnimatedSprite
 
