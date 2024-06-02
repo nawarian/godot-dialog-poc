@@ -1,0 +1,350 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://addons/dialogue_manager/dialogue_resource.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+resource_version = 15
+syntax_version = 2
+raw_text = "~ main_king_dialogue
+
+De’Arms: Mandou me chamar, Majestade?
+Rei: Hoje chegou aos meus ouvidos o boato de uma traição, De’Arms. Algo impensável!
+De’Arms: Qualquer traidor deve ser justiçado segundo a lei, Majestade. Diga-me quem é, e mandarei homens para prendê-lo e interrogá-lo nesse mesmo instante, Senhor.
+Rei: Isso também vale para sua irmã, não é certo, De’Arms?
+De’Arms: Minha irmã, senhor? Mas ela é sua...
+Rei: Sim, minha esposa. Sua rainha.
+- ...
+	De’Arms: Que tipo de traição Sua Majestade cometeu, Senhor?
+- Não pode ser verdade
+	De’Arms: Perdoe-me, Majestade, mas me nego a acreditar em tais boatos.
+	Rei: Não são apenas boatos, De'Arms. Posso prová-lo.
+
+Rei: Carlinya, explique a De’Arms o que você viu, por favor.
+Carlinya: Como desejar, Majestade. Nossa rainha, que os deuses tenham piedade dela, estava ontem à noite sentada num banco no Jardim das Maçãs ao lado de um homem, cavaleiro.
+
+...
+
+Carlinya: Estava ao lado de Tarryon, da casa Allguer.
+De’Arms: Sei muito bem quem é Tarryon, Carlinya. É nosso primo. E desde quando sentar-se com alguém num jardim é crime de traição, Majestade? Se posso saber, claro.
+Carlinya: Não seja tonto, cavaleiro. Claro que isso não é nenhum crime. O crime foi se beijarem como se fossem dois adolescentes.
+De’Arms: Quem os viu?
+Carlinya: A mesma que vos fala, cavaleiro
+De’Arms: Você...
+Carlinya: Eu?
+Rei: É consciente que Carlinya, como Suma Sacerdotisa da Chama, não pode mentir, De’Arms?
+De’Arms: Sou consciente, Senhor. O que deseja que faça com Sua Majestade diante de tal traição?
+Rei: Mate-a, cavaleiro. É uma ordem.
+- Perdoe-me, Majestade,  não posso cumprir sua ordem.
+	De’Arms: É minha irmã, Senhor. Deixo aqui minha espada e peço que me levem ao calabouço por desobedecer uma ordem real.
+	Rei: Confiava mais no meu capitão da guarda, De'Arms. Uma pena perder um homem tão capaz por algo tão patético como o sangue que os une. GUARDAS! Levem-no ao calabouço.
+- Assim farei, Majestade
+	De’Arms: Ordeno que a prendam antes, Senhor?
+	Rei: Não, você mesmo a matará. Com suas próprias mãos.
+	De’Arms: Entendo e obedeço, Majestade.
+Carlinya: Hehehe...
+"
+errors = [  ]
+titles = {
+"main_king_dialogue": "2"
+}
+lines = {
+"0": {
+"next_id": "2",
+"text": "main_king_dialogue",
+"type": "title"
+},
+"10": {
+"next_id": "11",
+"next_id_after": "14",
+"replacements": [  ],
+"text": "Não pode ser verdade",
+"translation_key": "Não pode ser verdade",
+"type": "response"
+},
+"11": {
+"character": "De’Arms",
+"character_replacements": [  ],
+"next_id": "12",
+"parent_id": "10",
+"replacements": [  ],
+"text": "Perdoe-me, Majestade, mas me nego a acreditar em tais boatos.",
+"translation_key": "Perdoe-me, Majestade, mas me nego a acreditar em tais boatos.",
+"type": "dialogue"
+},
+"12": {
+"character": "Rei",
+"character_replacements": [  ],
+"next_id": "14",
+"parent_id": "10",
+"replacements": [  ],
+"text": "Não são apenas boatos, De'Arms. Posso prová-lo.",
+"translation_key": "Não são apenas boatos, De'Arms. Posso prová-lo.",
+"type": "dialogue"
+},
+"14": {
+"character": "Rei",
+"character_replacements": [  ],
+"next_id": "15",
+"replacements": [  ],
+"text": "Carlinya, explique a De’Arms o que você viu, por favor.",
+"translation_key": "Carlinya, explique a De’Arms o que você viu, por favor.",
+"type": "dialogue"
+},
+"15": {
+"character": "Carlinya",
+"character_replacements": [  ],
+"next_id": "17",
+"replacements": [  ],
+"text": "Como desejar, Majestade. Nossa rainha, que os deuses tenham piedade dela, estava ontem à noite sentada num banco no Jardim das Maçãs ao lado de um homem, cavaleiro.",
+"translation_key": "Como desejar, Majestade. Nossa rainha, que os deuses tenham piedade dela, estava ontem à noite sentada num banco no Jardim das Maçãs ao lado de um homem, cavaleiro.",
+"type": "dialogue"
+},
+"17": {
+"character": "",
+"next_id": "19",
+"replacements": [  ],
+"text": "...",
+"translation_key": "...",
+"type": "dialogue"
+},
+"19": {
+"character": "Carlinya",
+"character_replacements": [  ],
+"next_id": "20",
+"replacements": [  ],
+"text": "Estava ao lado de Tarryon, da casa Allguer.",
+"translation_key": "Estava ao lado de Tarryon, da casa Allguer.",
+"type": "dialogue"
+},
+"2": {
+"character": "De’Arms",
+"character_replacements": [  ],
+"next_id": "3",
+"replacements": [  ],
+"text": "Mandou me chamar, Majestade?",
+"translation_key": "Mandou me chamar, Majestade?",
+"type": "dialogue"
+},
+"20": {
+"character": "De’Arms",
+"character_replacements": [  ],
+"next_id": "21",
+"replacements": [  ],
+"text": "Sei muito bem quem é Tarryon, Carlinya. É nosso primo. E desde quando sentar-se com alguém num jardim é crime de traição, Majestade? Se posso saber, claro.",
+"translation_key": "Sei muito bem quem é Tarryon, Carlinya. É nosso primo. E desde quando sentar-se com alguém num jardim é crime de traição, Majestade? Se posso saber, claro.",
+"type": "dialogue"
+},
+"21": {
+"character": "Carlinya",
+"character_replacements": [  ],
+"next_id": "22",
+"replacements": [  ],
+"text": "Não seja tonto, cavaleiro. Claro que isso não é nenhum crime. O crime foi se beijarem como se fossem dois adolescentes.",
+"translation_key": "Não seja tonto, cavaleiro. Claro que isso não é nenhum crime. O crime foi se beijarem como se fossem dois adolescentes.",
+"type": "dialogue"
+},
+"22": {
+"character": "De’Arms",
+"character_replacements": [  ],
+"next_id": "23",
+"replacements": [  ],
+"text": "Quem os viu?",
+"translation_key": "Quem os viu?",
+"type": "dialogue"
+},
+"23": {
+"character": "Carlinya",
+"character_replacements": [  ],
+"next_id": "24",
+"replacements": [  ],
+"text": "A mesma que vos fala, cavaleiro",
+"translation_key": "A mesma que vos fala, cavaleiro",
+"type": "dialogue"
+},
+"24": {
+"character": "De’Arms",
+"character_replacements": [  ],
+"next_id": "25",
+"replacements": [  ],
+"text": "Você...",
+"translation_key": "Você...",
+"type": "dialogue"
+},
+"25": {
+"character": "Carlinya",
+"character_replacements": [  ],
+"next_id": "26",
+"replacements": [  ],
+"text": "Eu?",
+"translation_key": "Eu?",
+"type": "dialogue"
+},
+"26": {
+"character": "Rei",
+"character_replacements": [  ],
+"next_id": "27",
+"replacements": [  ],
+"text": "É consciente que Carlinya, como Suma Sacerdotisa da Chama, não pode mentir, De’Arms?",
+"translation_key": "É consciente que Carlinya, como Suma Sacerdotisa da Chama, não pode mentir, De’Arms?",
+"type": "dialogue"
+},
+"27": {
+"character": "De’Arms",
+"character_replacements": [  ],
+"next_id": "28",
+"replacements": [  ],
+"text": "Sou consciente, Senhor. O que deseja que faça com Sua Majestade diante de tal traição?",
+"translation_key": "Sou consciente, Senhor. O que deseja que faça com Sua Majestade diante de tal traição?",
+"type": "dialogue"
+},
+"28": {
+"character": "Rei",
+"character_replacements": [  ],
+"next_id": "29",
+"replacements": [  ],
+"text": "Mate-a, cavaleiro. É uma ordem.",
+"translation_key": "Mate-a, cavaleiro. É uma ordem.",
+"type": "dialogue"
+},
+"29": {
+"next_id": "30",
+"next_id_after": "36",
+"replacements": [  ],
+"responses": PoolStringArray( "29", "32" ),
+"text": "Perdoe-me, Majestade,  não posso cumprir sua ordem.",
+"translation_key": "Perdoe-me, Majestade,  não posso cumprir sua ordem.",
+"type": "response"
+},
+"3": {
+"character": "Rei",
+"character_replacements": [  ],
+"next_id": "4",
+"replacements": [  ],
+"text": "Hoje chegou aos meus ouvidos o boato de uma traição, De’Arms. Algo impensável!",
+"translation_key": "Hoje chegou aos meus ouvidos o boato de uma traição, De’Arms. Algo impensável!",
+"type": "dialogue"
+},
+"30": {
+"character": "De’Arms",
+"character_replacements": [  ],
+"next_id": "31",
+"parent_id": "29",
+"replacements": [  ],
+"text": "É minha irmã, Senhor. Deixo aqui minha espada e peço que me levem ao calabouço por desobedecer uma ordem real.",
+"translation_key": "É minha irmã, Senhor. Deixo aqui minha espada e peço que me levem ao calabouço por desobedecer uma ordem real.",
+"type": "dialogue"
+},
+"31": {
+"character": "Rei",
+"character_replacements": [  ],
+"next_id": "36",
+"parent_id": "29",
+"replacements": [  ],
+"text": "Confiava mais no meu capitão da guarda, De'Arms. Uma pena perder um homem tão capaz por algo tão patético como o sangue que os une. GUARDAS! Levem-no ao calabouço.",
+"translation_key": "Confiava mais no meu capitão da guarda, De'Arms. Uma pena perder um homem tão capaz por algo tão patético como o sangue que os une. GUARDAS! Levem-no ao calabouço.",
+"type": "dialogue"
+},
+"32": {
+"next_id": "33",
+"next_id_after": "36",
+"replacements": [  ],
+"text": "Assim farei, Majestade",
+"translation_key": "Assim farei, Majestade",
+"type": "response"
+},
+"33": {
+"character": "De’Arms",
+"character_replacements": [  ],
+"next_id": "34",
+"parent_id": "32",
+"replacements": [  ],
+"text": "Ordeno que a prendam antes, Senhor?",
+"translation_key": "Ordeno que a prendam antes, Senhor?",
+"type": "dialogue"
+},
+"34": {
+"character": "Rei",
+"character_replacements": [  ],
+"next_id": "35",
+"parent_id": "32",
+"replacements": [  ],
+"text": "Não, você mesmo a matará. Com suas próprias mãos.",
+"translation_key": "Não, você mesmo a matará. Com suas próprias mãos.",
+"type": "dialogue"
+},
+"35": {
+"character": "De’Arms",
+"character_replacements": [  ],
+"next_id": "36",
+"parent_id": "32",
+"replacements": [  ],
+"text": "Entendo e obedeço, Majestade.",
+"translation_key": "Entendo e obedeço, Majestade.",
+"type": "dialogue"
+},
+"36": {
+"character": "Carlinya",
+"character_replacements": [  ],
+"next_id": "",
+"replacements": [  ],
+"text": "Hehehe...",
+"translation_key": "Hehehe...",
+"type": "dialogue"
+},
+"4": {
+"character": "De’Arms",
+"character_replacements": [  ],
+"next_id": "5",
+"replacements": [  ],
+"text": "Qualquer traidor deve ser justiçado segundo a lei, Majestade. Diga-me quem é, e mandarei homens para prendê-lo e interrogá-lo nesse mesmo instante, Senhor.",
+"translation_key": "Qualquer traidor deve ser justiçado segundo a lei, Majestade. Diga-me quem é, e mandarei homens para prendê-lo e interrogá-lo nesse mesmo instante, Senhor.",
+"type": "dialogue"
+},
+"5": {
+"character": "Rei",
+"character_replacements": [  ],
+"next_id": "6",
+"replacements": [  ],
+"text": "Isso também vale para sua irmã, não é certo, De’Arms?",
+"translation_key": "Isso também vale para sua irmã, não é certo, De’Arms?",
+"type": "dialogue"
+},
+"6": {
+"character": "De’Arms",
+"character_replacements": [  ],
+"next_id": "7",
+"replacements": [  ],
+"text": "Minha irmã, senhor? Mas ela é sua...",
+"translation_key": "Minha irmã, senhor? Mas ela é sua...",
+"type": "dialogue"
+},
+"7": {
+"character": "Rei",
+"character_replacements": [  ],
+"next_id": "8",
+"replacements": [  ],
+"text": "Sim, minha esposa. Sua rainha.",
+"translation_key": "Sim, minha esposa. Sua rainha.",
+"type": "dialogue"
+},
+"8": {
+"next_id": "9",
+"next_id_after": "14",
+"replacements": [  ],
+"responses": PoolStringArray( "8", "10" ),
+"text": "...",
+"translation_key": "...",
+"type": "response"
+},
+"9": {
+"character": "De’Arms",
+"character_replacements": [  ],
+"next_id": "14",
+"parent_id": "8",
+"replacements": [  ],
+"text": "Que tipo de traição Sua Majestade cometeu, Senhor?",
+"translation_key": "Que tipo de traição Sua Majestade cometeu, Senhor?",
+"type": "dialogue"
+}
+}

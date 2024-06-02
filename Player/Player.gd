@@ -26,6 +26,8 @@ func _ready():
 
 func _process(delta):
 	var axis = Input.get_axis("ui_left", "ui_right")
+	if DialogueManager.is_dialogue_running:
+		axis = 0
 
 	if axis < 0:
 		direction = Direction.LEFT
@@ -41,7 +43,7 @@ func _process(delta):
 
 	if not is_on_floor():
 		state = PlayerState.JUMP
-	elif Input.is_action_just_pressed("ui_jump"):
+	elif Input.is_action_just_pressed("ui_jump") and not DialogueManager.is_dialogue_running:
 		velocity.y = -gravity * gravity_direction.y / 3
 
 	if state == PlayerState.IDLE:
